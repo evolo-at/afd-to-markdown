@@ -1,0 +1,7 @@
+src/
+test/
+tsconfig.json
+adf-example.json
+output.md
+PLAN.md
+*.log

@@ -1,0 +1,32 @@
+{
+  "name": "adf-to-markdown",
+  "version": "1.0.0",
+  "description": "Convert Atlassian Document Format (ADF) to Markdown",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node test/converter.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "adf",
+    "atlassian",
+    "markdown",
+    "converter",
+    "jira",
+    "confluence"
+  ],
+  "author": "evmbal",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
