@@ -3,610 +3,11 @@
   "version": 1,
   "content": [
     {
-      "type": "heading",
-      "attrs": {
-        "level": 1
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Testing out ADF conversion"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "attrs": {
-        "level": 2
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "attrs": {
-        "level": 3
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "attrs": {
-        "level": 4
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "attrs": {
-        "level": 5
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "attrs": {
-        "level": 6
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown"
-        }
-      ]
-    },
-    {
       "type": "paragraph",
       "content": [
         {
           "type": "text",
-          "text": "To Markdown"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown",
-          "marks": [
-            {
-              "type": "strong"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown",
-          "marks": [
-            {
-              "type": "em"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown",
-          "marks": [
-            {
-              "type": "underline"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown",
-          "marks": [
-            {
-              "type": "strike"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown",
-          "marks": [
-            {
-              "type": "code"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown",
-          "marks": [
-            {
-              "attrs": {
-                "type": "sub"
-              },
-              "type": "subsup"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown",
-          "marks": [
-            {
-              "attrs": {
-                "type": "sup"
-              },
-              "type": "subsup"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "To Markdown",
-          "marks": [
-            {
-              "type": "textColor",
-              "attrs": {
-                "color": "#ff5630"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "bulletList",
-      "content": [
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "type": "text",
-                  "text": "List 1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "type": "text",
-                  "text": "List 2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "type": "text",
-                  "text": "List 3"
-                }
-              ]
-            },
-            {
-              "type": "bulletList",
-              "content": [
-                {
-                  "type": "listItem",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "List Indented 4"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "bulletList",
-                      "content": [
-                        {
-                          "type": "listItem",
-                          "content": [
-                            {
-                              "type": "paragraph",
-                              "content": [
-                                {
-                                  "type": "text",
-                                  "text": "List Indented 5"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "bulletList",
-                              "content": [
-                                {
-                                  "type": "listItem",
-                                  "content": [
-                                    {
-                                      "type": "paragraph",
-                                      "content": [
-                                        {
-                                          "type": "text",
-                                          "text": "List Indented 6"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "bulletList",
-                                      "content": [
-                                        {
-                                          "type": "listItem",
-                                          "content": [
-                                            {
-                                              "type": "paragraph",
-                                              "content": [
-                                                {
-                                                  "type": "text",
-                                                  "text": "List Indented 7"
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "orderedList",
-      "attrs": {
-        "order": 1
-      },
-      "content": [
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "type": "text",
-                  "text": "Number 1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "type": "text",
-                  "text": "Number 2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "type": "text",
-                  "text": "Number 3"
-                }
-              ]
-            },
-            {
-              "type": "orderedList",
-              "attrs": {
-                "order": 1
-              },
-              "content": [
-                {
-                  "type": "listItem",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Number 3a"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "orderedList",
-                      "attrs": {
-                        "order": 1
-                      },
-                      "content": [
-                        {
-                          "type": "listItem",
-                          "content": [
-                            {
-                              "type": "paragraph",
-                              "content": [
-                                {
-                                  "type": "text",
-                                  "text": "Number 3ai"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "orderedList",
-                              "attrs": {
-                                "order": 1
-                              },
-                              "content": [
-                                {
-                                  "type": "listItem",
-                                  "content": [
-                                    {
-                                      "type": "paragraph",
-                                      "content": [
-                                        {
-                                          "type": "text",
-                                          "text": "Number 3ai1"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "orderedList",
-                                      "attrs": {
-                                        "order": 1
-                                      },
-                                      "content": [
-                                        {
-                                          "type": "listItem",
-                                          "content": [
-                                            {
-                                              "type": "paragraph",
-                                              "content": [
-                                                {
-                                                  "type": "text",
-                                                  "text": "Number 3ai1a"
-                                                }
-                                              ]
-                                            },
-                                            {
-                                              "type": "orderedList",
-                                              "attrs": {
-                                                "order": 1
-                                              },
-                                              "content": [
-                                                {
-                                                  "type": "listItem",
-                                                  "content": [
-                                                    {
-                                                      "type": "paragraph",
-                                                      "content": [
-                                                        {
-                                                          "type": "text",
-                                                          "text": "Number 3ai1ai"
-                                                        }
-                                                      ]
-                                                    }
-                                                  ]
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "taskList",
-      "content": [
-        {
-          "type": "taskItem",
-          "content": [
-            {
-              "type": "text",
-              "text": "Checkbox unchecked"
-            }
-          ],
-          "attrs": {
-            "localId": "e26ee2ea-f6aa-4b2e-99fa-3a34e1226bcf",
-            "state": "TODO"
-          }
-        },
-        {
-          "type": "taskItem",
-          "content": [
-            {
-              "type": "text",
-              "text": "Checkbox checked"
-            }
-          ],
-          "attrs": {
-            "localId": "ad1bd7c8-9f4f-45e4-ae18-852f0a8dd273",
-            "state": "DONE"
-          }
-        }
-      ],
-      "attrs": {
-        "localId": "e72f1b74-e693-412f-9dfe-79d1c7f83eca"
-      }
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "Link to Google",
-          "marks": [
-            {
-              "type": "link",
-              "attrs": {
-                "href": "http://google.com"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "mediaSingle",
-      "attrs": {
-        "layout": "align-start"
-      },
-      "content": [
-        {
-          "type": "media",
-          "attrs": {
-            "type": "file",
-            "id": "1267bb8d-b8c7-48de-a429-1fc885fa9eed",
-            "alt": "26-Tahoe-Beach-Night.png",
-            "collection": "",
-            "height": 3384,
-            "width": 6016
-          }
-        }
-      ]
-    },
-    {
-      "type": "mediaSingle",
-      "attrs": {
-        "layout": "center"
-      },
-      "content": [
-        {
-          "type": "media",
-          "attrs": {
-            "type": "file",
-            "id": "a01a2acb-37e9-47dc-ba8b-d6500df2dade",
-            "collection": "",
-            "height": 739,
-            "width": 1024
-          }
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "mention",
-          "attrs": {
-            "id": "712020:76ca0727-7b7b-4f1c-a772-ff8fa321901e",
-            "text": "@Alexander Leeb",
-            "accessLevel": "",
-            "localId": "e2cd7eb3-1db3-49df-9c38-0f52cf1ab99c"
-          }
-        },
-        {
-          "type": "text",
-          "text": " "
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "emoji",
-          "attrs": {
-            "shortName": ":grinning:",
-            "id": "1f600",
-            "text": "😀"
-          }
-        },
-        {
-          "type": "text",
-          "text": " "
+          "text": "Currently following components need hosting and here are some initial thoughts on each of them"
         }
       ]
     },
@@ -615,14 +16,14 @@
       "attrs": {
         "isNumberColumnEnabled": false,
         "layout": "align-start",
-        "localId": "18703399-d257-4ace-91d7-4557e34c70a1"
+        "localId": "5ed9e9e8-8639-453c-8746-403f44ba8d5b"
       },
       "content": [
         {
           "type": "tableRow",
           "content": [
             {
-              "type": "tableHeader",
+              "type": "tableCell",
               "attrs": {},
               "content": [
                 {
@@ -630,19 +31,14 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "TableHeader1",
-                      "marks": [
-                        {
-                          "type": "strong"
-                        }
-                      ]
+                      "text": "evolo-web"
                     }
                   ]
                 }
               ]
             },
             {
-              "type": "tableHeader",
+              "type": "tableCell",
               "attrs": {},
               "content": [
                 {
@@ -650,19 +46,14 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "TableHeader2",
-                      "marks": [
-                        {
-                          "type": "strong"
-                        }
-                      ]
+                      "text": "Holds Website Project evolo.at"
                     }
                   ]
                 }
               ]
             },
             {
-              "type": "tableHeader",
+              "type": "tableCell",
               "attrs": {},
               "content": [
                 {
@@ -670,12 +61,78 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "TableHeader3",
-                      "marks": [
-                        {
-                          "type": "strong"
-                        }
-                      ]
+                      "text": "Currently not using a backend at all, but will add for translations and a few other reasons"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "evolo-auth"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Includes Core API, Auth and Admin UI"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Needs refactoring, no more monolith structure"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Project name evolo-core for server"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Project name evolo-admin-ui for client (maybe host dist only like website currently is but will probably need api on same port so we will need to host it like jsongen)"
                     }
                   ]
                 }
@@ -695,7 +152,7 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "TableCell1"
+                      "text": "evolo-redis"
                     }
                   ]
                 }
@@ -710,7 +167,7 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "TableCell2"
+                      "text": "Currently used as localhost setup"
                     }
                   ]
                 }
@@ -725,7 +182,7 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "TableCell3"
+                      "text": "Might consider hosting on a dedicated server but will probably host together with evolo-auth"
                     }
                   ]
                 }
@@ -745,7 +202,7 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "TableCell1"
+                      "text": "evolo-mail"
                     }
                   ]
                 }
@@ -760,7 +217,7 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "TableCell2"
+                      "text": "Includes Email API, curerntly not using a database"
                     }
                   ]
                 }
@@ -775,124 +232,63 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "TableCell3"
+                      "text": "Host on single server for now, will probably upgrade to a loadbalanced setup lateron"
                     }
                   ]
                 }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "codeBlock",
-      "attrs": {
-        "language": "javascript"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "console.log(\"Code in JS\");"
-        }
-      ]
-    },
-    {
-      "type": "panel",
-      "content": [
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "type": "text",
-              "text": "Info"
-            }
-          ]
-        }
-      ],
-      "attrs": {
-        "panelType": "info"
-      }
-    },
-    {
-      "type": "blockquote",
-      "content": [
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "type": "text",
-              "text": "Citation"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "decisionList",
-      "content": [
-        {
-          "type": "decisionItem",
-          "content": [
-            {
-              "type": "text",
-              "text": "Decision"
-            }
-          ],
-          "attrs": {
-            "localId": "572200f0-fb94-4bf9-983d-22f139ca87cc",
-            "state": "DECIDED"
-          }
-        }
-      ],
-      "attrs": {
-        "localId": "d9b94176-35b1-4967-a445-72abbafaf839"
-      }
-    },
-    {
-      "type": "rule"
-    },
-    {
-      "type": "expand",
-      "content": [
-        {
-          "type": "paragraph"
-        }
-      ],
-      "attrs": {
-        "title": "Erweiterung"
-      }
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "date",
-          "attrs": {
-            "timestamp": "1759104000000"
-          }
         },
         {
-          "type": "text",
-          "text": " "
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "status",
-          "attrs": {
-            "text": "GREEN",
-            "color": "green",
-            "localId": "30c5f4d0-c337-423b-8769-992c0025cb46",
-            "style": ""
-          }
-        },
-        {
-          "type": "text",
-          "text": " "
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "database"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Standalone database server"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Look into master/slave setup"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
