@@ -203,11 +203,22 @@ export class ADFToMarkdownConverter {
     const rows = node.content || [];
     let result = "";
 
+    // Check if first row contains tableHeader nodes
+    const hasHeaderRow = rows.length > 0 &&
+      rows[0].content?.some((cell: ADFNode) => cell.type === "tableHeader");
+
+    // If no header row, add an empty header row to prevent first data row from being bold
+    if (!hasHeaderRow && rows.length > 0) {
+      const columnCount = rows[0].content?.length || 0;
+      result += "| " + Array(columnCount).fill("").join(" | ") + " |\n";
+      result += "| " + Array(columnCount).fill("---").join(" | ") + " |\n";
+    }
+
     for (let i = 0; i < rows.length; i++) {
       result += this.convertNode(rows[i]);
 
-      // Add separator after header row
-      if (i === 0) {
+      // Add separator after first row if it has headers
+      if (i === 0 && hasHeaderRow) {
         const headerCells = rows[0].content?.length || 0;
         result += "| " + Array(headerCells).fill("---").join(" | ") + " |\n";
       }
@@ -223,8 +234,31 @@ export class ADFToMarkdownConverter {
   }
 
   private convertTableCell(node: ADFNode, isHeader: boolean): string {
-    const content = this.convertNodes(node.content || []).trim();
-    return content;
+    // Convert cell content, handling multiple paragraphs
+    const content = node.content || [];
+    const parts: string[] = [];
+
+    for (const child of content) {
+      if (child.type === "paragraph") {
+        // Handle empty paragraphs
+        if (!child.content || child.content.length === 0) {
+          continue;
+        }
+        const text = this.convertNodes(child.content).trim();
+        if (text) {
+          parts.push(text);
+        }
+      } else {
+        // For non-paragraph content, convert normally
+        const text = this.convertNode(child).trim();
+        if (text) {
+          parts.push(text);
+        }
+      }
+    }
+
+    // Join multiple paragraphs with <br> for markdown line breaks in tables
+    return parts.join("<br>");
   }
 
   private convertPanel(node: ADFNode): string {
