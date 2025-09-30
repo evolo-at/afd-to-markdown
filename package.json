@@ -1,6 +1,6 @@
 {
   "name": "adf-to-markdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert Atlassian Document Format (ADF) to Markdown",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
