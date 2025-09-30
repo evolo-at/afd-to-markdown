@@ -12,7 +12,7 @@ export class ADFToMarkdownConverter {
    * Convert ADF document to Markdown
    */
   public convert(doc: ADFDocument): string {
-    if (doc.type !== "doc") {
+    if (!doc || doc.type !== "doc") {
       throw new Error('Root node must be of type "doc"');
     }
 
